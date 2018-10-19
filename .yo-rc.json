@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "crm",
+    "packageName": "io.github.pascalgrimaud.crm",
+    "packageFolder": "io/github/pascalgrimaud/crm",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "YWEzMGIzZWZlNWE4ZTNjMjM2NDVlMmM2NDJhNjcyNDAxYjQwNmQwOTU1ZjE1ZjkzZThhZWVhNDVlZjI3MWFjMGM1ZTQ2ZDIwYzM4ZTIzOTZiZGVmNGNjM2NmODNmNjA5NjY2OWNjYTQ1MDZjMTZhMDVkMTY5ODIxNzczOGE1NjM=",
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "pascalgrimaud",
+  "repository-name": "jhi-crm"
+}
